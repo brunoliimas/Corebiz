@@ -1,0 +1,54 @@
+.slider{
+   width: 100%;
+   height: 400px;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   position: relative;
+   overflow: hidden;
+   background: #000000;
+   i{
+      font-size: 2rem;
+      color: #ffffff10;
+   }
+}
+.slide{
+   position: relative;
+   // left: 150px;
+   min-width: 100%;
+   height: 400px;
+   transition: 1s;
+   overflow: hidden;
+   background: center;
+}
+.texto{
+   position: absolute;
+}
+%btn-styles{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 10%;
+   height: 100%;
+   background: none;
+   border: none;
+   outline: none;
+   transition: .5s;
+   &:hover{
+      cursor: pointer;
+      i{
+         color: #ffffff;
+      }
+   }
+}
+
+#goLeft{
+   left: 0;
+   @extend %btn-styles;
+}
+#goRight{
+   right: 0;
+   @extend %btn-styles;
+}

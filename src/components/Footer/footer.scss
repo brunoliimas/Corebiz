@@ -1,0 +1,62 @@
+#Footer {
+   background-color: #000000;
+   color: #ffffff;
+   .footer {
+      padding: 30px 0;
+      .row {
+         .localizacao {
+            padding: 30px;
+            h3 {
+               font-family: Arial, Helvetica, sans-serif;
+               font-size: 30px;
+               font-weight: bold;
+            }
+            .separador {
+               width: 20%;
+               height: 2%;
+               background-color: #ffffff;
+               margin: 20px 0;
+            }
+            p {
+               line-height: 12px;
+            }
+         }
+         .buttons-contato {
+            padding: 30px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            button {
+               margin: 20px 0;
+               width: 200px;
+               height: 40px;
+               border-radius: 5px;
+               background-color: #ffffff;
+               border: none;
+               font-size: 0.8rem;
+               line-height: 14px;
+               display: flex;
+               align-items: center;
+               justify-content: space-around;
+               img {
+                  width: 20px;
+               }
+               P {
+                  margin: 0;
+                  width: 150px;
+               }
+            }
+         }
+         .atribuicao {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: .8rem;
+           
+            img{
+               height: 25px;
+            }
+         }
+      }
+   }
+}

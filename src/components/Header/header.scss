@@ -1,0 +1,26 @@
+#Header {
+   .principal {
+      .logo {
+         width: 181px;
+         height: auto;
+      }
+      .cart {
+         display: flex;
+         align-items: center;
+         .carrinho {
+            width: 30px;
+            height: auto;
+         }
+         div {
+            margin-left: .5rem;
+            font-size: .8rem;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            background-color: #f8475f;
+         }
+      }
+   }
+}

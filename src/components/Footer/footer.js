@@ -18,9 +18,9 @@ class Footer extends React.Component {
                <div className="row">
                   <div className="localizacao col-md-4">
                      <h3>Localização</h3>
-                     <div className="separador"></div>
+                     <hr/>
                      <div className="texto">
-                        <p>Rua Ifigênia Maria de Oliveira 3793</p>
+                        <p>Rua Ifigênia Maria de Oliveira, 3793</p>
                         <p>Jd. Piratininga - 14403-583</p>
                         <p>Franca SP, Brasil</p>
                         <p>contato@clickqi.com.br</p>

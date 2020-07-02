@@ -50,10 +50,10 @@ function Slider() {
          </div> */}
 
          <button id="goLeft" onClick={goLeft}>
-            <i class="fas fa-chevron-left"></i>
+            <i className="fas fa-chevron-left"></i>
          </button>
          <button id="goRight" onClick={goRight}>
-            <i class="fas fa-chevron-right"></i>
+            <i className="fas fa-chevron-right"></i>
          </button>
       </div>
    )

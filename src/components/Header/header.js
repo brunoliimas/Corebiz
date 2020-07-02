@@ -12,7 +12,7 @@ class Header extends React.Component {
       return (
          <header id="Header" className="header">
             <Navbar />
-            <Search />
+            {/* <Search /> */}
          </header>
       );
    }

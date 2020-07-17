@@ -2,6 +2,9 @@ import React from 'react';
 import "./cardProduto.scss";
 import Axios from 'axios';
 
+import { formatNumber } from '../../../helpers/index';
+
+
 class CardProduto extends React.Component {
    constructor(props) {
       super(props)
@@ -25,7 +28,7 @@ class CardProduto extends React.Component {
 
 
    render() {
-
+     
       const { products } = this.state
       return (
          <div id="Produto" className="produto">
@@ -39,11 +42,12 @@ class CardProduto extends React.Component {
 
                         <span className="estrelas">{product.stars}</span>
 
-                        <p className="preco-antigo">de R${product.listPrice}</p>
+                        <p className="preco-antigo">de {formatNumber(product.listPrice)}</p>
 
-                        <h2 className="preco-atual">por R$ {product.price}</h2>
+                        <h2 className="preco-atual">por R$ {formatNumber(product.price)}</h2>
 
                         <p>ou em 4x de R$ 14,99</p>
+                        <button className="buy" type="submit">Comprar</button>
 
                      </div>
                   ) :
